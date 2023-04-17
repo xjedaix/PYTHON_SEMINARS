@@ -261,16 +261,16 @@ str - строка
 # print(text.uper())
 # print(text.replace('еще', 'ЕЩЕ'))
 
-text = 'СъЕШЬ еще этих МяГкИх французских булок'
-print(text[0])                         # с
-print(text[1])                         # ъ
-print(text[len(text)-1])               # к
-print(text[-5])                        # б
-print(text[:])                         # съешь еще этих мягких французских булок
-print(text[:2])                        # съ
-print(text[len(text)-2])               # ок
-print(text[2:9])                       # ешь еще
-print([6: -18])                        # еще этих мягких
-print(text[0:len(text):6])             # сеикакл
-print(text[::6])                       # сеикакл
-text = text[2:9] + text[-5] + text[:2] # . . .
+# text = 'СъЕШЬ еще этих МяГкИх французских булок'
+# print(text[0])                         # с
+# print(text[1])                         # ъ
+# print(text[len(text)-1])               # к
+# print(text[-5])                        # б
+# print(text[:])                         # съешь еще этих мягких французских булок
+# print(text[:2])                        # съ
+# print(text[len(text)-2])               # ок
+# print(text[2:9])                       # ешь еще
+# print([6: -18])                        # еще этих мягких
+# print(text[0:len(text):6])             # сеикакл
+# print(text[::6])                       # сеикакл
+# text = text[2:9] + text[-5] + text[:2] # . . .
