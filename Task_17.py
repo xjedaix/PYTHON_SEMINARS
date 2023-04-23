@@ -4,3 +4,14 @@
 
 nums = [1, 2, 3, 4, 1, 2]
 print(set(nums))
+
+# элементы которые встречаются 1 раз
+uniq_nums = [i for i in nums if nums.count(i) == 1]
+uniq_nums1 = []
+
+for i in nums:
+    if nums.count(i) == 1:
+        uniq_nums1.append
+
+print(uniq_nums)
+print(uniq_nums1)
